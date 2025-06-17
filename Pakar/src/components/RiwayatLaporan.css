@@ -52,19 +52,22 @@ tbody tr:hover {
     display: inline-block; /* Memastikan padding berfungsi dengan benar */
 }
 
-.status-belum-diproses { 
-    background-color: #ffc107; /* Kuning */
-    color: #333; /* Teks gelap agar mudah dibaca */
+.status-laporan-diterima {
+  background-color: #17a2b8; /* Biru Info */
+  color: white;
 }
-.status-sedang-proses { 
-    background-color: #17a2b8; /* Biru */
-    color: #fff; /* Teks putih */
+.status-laporan-ditolak {
+  background-color: #dc3545; /* Merah */
+  color: white;
 }
-.status-sudah-selesai { 
-    background-color: #28a745; /* Hijau */
-    color: #fff; /* Teks putih */
+.status-sedang-di-proses {
+  background-color: #ffc107; /* Kuning */
+  color: white;
 }
-
+.status-selesai {
+  background-color: #28a745; /* Hijau */
+  color: white;
+}
 /* Tombol aksi sudah tidak digunakan lagi, bisa dihapus jika tidak ada halaman lain yang memakai */
 .aksi-buttons {
     display: flex;
