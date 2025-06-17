@@ -1,0 +1,95 @@
+.riwayat-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.riwayat-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto; /* Agar bisa di-scroll horizontal di layar kecil */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0; 
+    color: #333; 
+    vertical-align: middle; 
+}
+
+thead th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* --- PERBAIKAN: Menambahkan white-space agar teks tidak turun baris --- */
+.status-badge {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    white-space: nowrap; /* Mencegah teks turun baris */
+    display: inline-block; /* Memastikan padding berfungsi dengan benar */
+}
+
+.status-belum-diproses { 
+    background-color: #ffc107; /* Kuning */
+    color: #333; /* Teks gelap agar mudah dibaca */
+}
+.status-sedang-proses { 
+    background-color: #17a2b8; /* Biru */
+    color: #fff; /* Teks putih */
+}
+.status-sudah-selesai { 
+    background-color: #28a745; /* Hijau */
+    color: #fff; /* Teks putih */
+}
+
+/* Tombol aksi sudah tidak digunakan lagi, bisa dihapus jika tidak ada halaman lain yang memakai */
+.aksi-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.aksi-buttons button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.btn-proses { background-color: #007bff; }
+.btn-proses:hover { background-color: #0056b3; }
+
+.btn-selesai { background-color: #28a745; }
+.btn-selesai:hover { background-color: #218838; }
+
+.loading-container, .error-container {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2rem;
+    color: #555;
+}

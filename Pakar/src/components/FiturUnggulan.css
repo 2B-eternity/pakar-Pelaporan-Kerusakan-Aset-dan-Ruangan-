@@ -1,0 +1,94 @@
+.fitur-section {
+  padding: 4rem 2rem;
+  background-color: #fdfdf7;
+  text-align: center;
+  box-shadow: 0px 10px 10px #f5f5f5;
+  min-height: 55vh;
+}
+
+.fitur-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #497248;
+  margin-bottom: 3rem;
+  box-shadow: #0a291b;
+  width: 542;
+  height: 90;
+  top: 1137px;
+  left: 689px;
+  border-width: 1px;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.fitur-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.fitur-card {
+  width: 464;
+  height: 295;
+  top: 1332px;
+  left: 161px;
+  border-radius: 10px;
+  border-width: 3px;
+  padding: 25px;
+  gap: 4px;
+  box-sizing: initial;
+  box-shadow: #0000008f;
+  background-color: #fffdf1;
+  border: 2px solid #497248;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 280px;
+  text-align: left;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.fitur-card:hover {
+  border-color: #2d694a;
+}
+
+.fitur-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.fitur-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1c3c2b;
+  margin-bottom: 0.5rem;
+  width: 391;
+  height: 39;
+  
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.fitur-desc {
+  font-size: 0.95rem;
+  color: #333;
+  width: 406;
+  height: 98;
+ 
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.fitur-card {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.fitur-card:hover {
+  background-color: #497248;
+}

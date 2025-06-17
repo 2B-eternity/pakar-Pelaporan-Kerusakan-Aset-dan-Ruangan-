@@ -1,0 +1,158 @@
+
+footer {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  font-size: large;
+}
+
+.footer-top-section {
+  background-color: #497248;
+  color: white;
+  padding: 40px 20px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+
+.container {
+  max-width: 1100px; 
+  margin: 0 auto;
+  padding: 0 15px; 
+  width: 100%;
+}
+
+/* Flex container untuk kolom PAKAR! dan WEBSITE */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+
+.footer-column {
+  padding: 0px 0px;
+  padding: 20px 0px;
+}
+
+
+.footer-column:first-child {
+  flex: 0 0 auto;
+  max-width: 45%; 
+  width: 633;
+  height: 136;
+  top: 3683px;
+  left: 216px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
+.footer-column:last-child {
+  flex: 0 0 auto;
+  max-width: 30%;
+  text-align: right;
+  width: 633;
+  height: 232;
+  top: 3683px;
+  left: 1068px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.footer-column h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-column p {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 5px;
+}
+
+
+.website-info p {
+  margin-bottom: 0px;
+  line-height: 1.4;
+}
+
+.social-icons-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons {
+  display: inline-flex;
+  gap: 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0) invert(1);
+  vertical-align: middle;
+}
+
+/*  copyright */
+.footer-bottom-section {
+  background-color: #152f14;
+  color: #fffdf1;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9em;
+  width: 370;
+  height: 29;
+  top: 4247px;
+  left: 773px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-column:first-child,
+  .footer-column:last-child {
+    flex-basis: auto;
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .social-icons-wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-top-section {
+    padding: 30px 20px;
+    min-height: auto;
+  }
+}
